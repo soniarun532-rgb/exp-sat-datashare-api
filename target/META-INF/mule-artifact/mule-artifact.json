@@ -1,0 +1,42 @@
+{
+  "configs": [
+    "call-prc-solutech-api-sub-flow.xml",
+    "exp-sat-datashare-api.xml",
+    "global.xml",
+    "global-error-handler.xml"
+  ],
+  "secureProperties": [
+    "secure.key"
+  ],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "e4352f2d-9759-4055-930e-8a13244d0f45:exp-sat-datashare-api:1.0.0",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "call-prc-solutech-api-sub-flow.xml",
+        "dwl/process-query-params.dwl",
+        "exp-sat-datashare-api.xml",
+        "global-error-handler.xml",
+        "global.xml",
+        "log4j2.xml",
+        "properties/config-common.yaml",
+        "properties/config-dev.yaml",
+        "properties/config-prod.yaml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "javaSpecificationVersions": [
+    "11",
+    "17",
+    "1.8"
+  ]
+}
